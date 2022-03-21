@@ -1,0 +1,42 @@
+.address-coin-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.address-coin-top .address-coin {
+    font-size: 16px;
+    padding: 6px;
+    width: 400px;
+    border: 0px;
+    border-radius: 5px;
+}
+.address-coin-top button {
+    margin-top: 15px;
+    width: 130px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #111;
+    color: white;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.address-coin-top button:hover {
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+
+.coin-details, .transferEvents {
+    text-align: center;
+}
+
+@media only screen and (max-width: 430px) {
+    .address-coin-top .address-coin {
+        width: 90%;
+    }
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  margin: 0px;
+  background-color: #111;
+  /* background-image: linear-gradient(to right, #b0aef9, #4e3be9); */
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  line-height: 30px;
+}
+.address-main {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 50px;
+}
