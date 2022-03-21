@@ -1,4 +1,0 @@
-/
-/account-details
-/coin-details
-/about
