@@ -34,10 +34,10 @@ export default function Home() {
             <img className='nft-img-2' src={require('../../../assets/home2.png')} rel="noopener" alt=''/>
 
             <div className='home-section-1'>
-                <h2>Hello 👋, This website is similar to <a href='https://etherscan.io/' target='_blank' rel="noreferrer">etherscan.io</a>, Where the website allows you to search through transactions, blocks, wallet addresses, smart contracts, and other on-chain data. Using BlockInfo, enter any Ethereum address into the search box to see the current balance and transaction history of the wallet. No API's from etherscan are used. All the are extracted directly from Blockchain. <a href='/about'>click here for more info</a></h2>
+                <h2>Hello 👋, This website is similar to <a href='https://etherscan.io/' target='_blank' rel="noreferrer">etherscan.io</a>, Where the website allows you to search through transactions, blocks, wallet addresses, smart contracts, and other on-chain data. Using BlockInfo, enter any Ethereum address into the search box to see the current balance and transaction history of the wallet. No API's from etherscan are used. All the info are extracted directly from Blockchain. <a href='/about'>click here for more info</a></h2>
             </div>
             <div className='home-section-1'>
-                <h2>Get all the account address from <a href='https://etherscan.io/' target='_blank' rel="noreferrer">etherscan.io</a> for testing and compare the results. Some of the sample address are given below for your reference.</h2>
+                <h2>Get the account address from <a href='https://etherscan.io/' target='_blank' rel="noreferrer">etherscan.io</a> for testing and compare the results. Some of the sample address are given below for your reference.</h2>
             </div>
             <div className='scroll-down'>
                 <h1>SCROLL DOWN</h1>

@@ -61,6 +61,7 @@ export default function SmartContract({ addr }) {
                 else {
                     newEle.innerHTML = "<strong>" + arr[0] + ": </strong>" + arr[1]
                 }
+                document.querySelector('.loader').style.display = "none"
                 document.querySelector(".transferEvents").append(newEle)
             })
         } catch (error) {
@@ -72,6 +73,8 @@ export default function SmartContract({ addr }) {
 
     return (
         <>
+            <div className="loader"></div>
+
             <div className="coin-details"></div>
             <div className="transferEvents"></div>
         </>

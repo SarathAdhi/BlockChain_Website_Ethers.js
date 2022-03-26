@@ -35,6 +35,8 @@ export default function Balance({addr}) {
                 document.querySelector(".bal-more-info").append(newEle)
             })
 
+            document.querySelector('.loader').style.display = "none"
+
             const { transactions } = await provider.getBlockWithTransactions(block)
             console.log(transactions);
 
@@ -50,6 +52,7 @@ export default function Balance({addr}) {
     
     return (
         <>
+        <div className="loader"></div>
         <p className='bal'></p>
         <div  className='bal-more-info'></div>
         </>
