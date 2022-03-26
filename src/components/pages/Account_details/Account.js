@@ -21,7 +21,7 @@ export default function Account() {
                     var address1 = document.querySelector('.address-trans').value
                     setAddr(address1);
                 }}>
-                    Show Balance
+                    Show Account Info
                 </button>
                 {addr && <Balance addr={addr} />}
             </div>
